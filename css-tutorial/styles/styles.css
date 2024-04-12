@@ -1,20 +1,52 @@
 @charset "utf-8";
 /* We'll add our presentation styles here */
-
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 /* HTML and Body Styles */
+html {
+    background-color: hsl(27, 72%, 72%);
+}
 
-
+body {
+    color: rgb(91, 91, 91); /* words */
+    background-color: ivory;
+    font-family: Geneva, Verdana, sans-serif;
+}
 
 /* Heading Styles */
 
+#about h1 {
+    color: white;
+    background-color: rgb(222, 128, 60);
+}
 
+#about h2 {
+    color: white;
+    background-color: rgb(235, 177, 131);
+}
 
+.syllabus h1, .syllabus h2 {
+    color: rgb(101, 101, 101);
+    background-color: rgb(255, 185, 255);
+}
 
+h1, h2 {
+    font-family: "Quicksand", Geneva, Verdana, sans-serif; /*order of precedence*/
+    letter-spacing: 0.1em;
+}
 
+h1 {
+    font-size: 2.2em;
+}
+
+h2 {
+    font-size: 2.2em;
+}
 
 /* Aside and Blockquote Styles */
-
+aside {
+    font-size: 0.8em;
+}
 
 
 
@@ -22,8 +54,14 @@
 /* Navigation Styles */
 
 
+nav {
+    font-size: 0.8em;
+}
 
+nav > ul { /*ul means unordered list*/
 
+    line-height: 2em; /*double spaced*/
+}
 
 /* List Styles */
 
@@ -31,9 +69,21 @@
 
 
 
-/* Footer Styles */
+/* Footer Styles*/
 
+/*
+footer address {
+    background-color: rgb(222, 128, 60);
 
+    color:rgba(255, 255, 255, 0.7);
+
+    font: normal        /* style      */
+        small-caps      /* variant      */
+        bold            /* weight      */
+        0.9em/3em       /* size/height      */
+        Quicksand, Geneva, Verdana, sans-serif;
+}
+*/
 
 
 
